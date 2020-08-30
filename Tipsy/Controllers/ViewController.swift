@@ -9,12 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
+    // IBOutlets:- Label|TextField
+    @IBOutlet weak var totalAmountTextField: UITextField!
+    @IBOutlet weak var splitLabel: UILabel!
+    // IBOutlets:- Tip Buttons
+    @IBOutlet weak var tipZeroButton: UIButton!
+    @IBOutlet weak var tipTenButton: UIButton!
+    @IBOutlet weak var tipTwentyButton: UIButton!
+    // IBActions
+    @IBAction func splitStepperValueChanged(_ sender: UIStepper) {}
+    @IBAction func calculatePressed(_ sender: UIButton) {}
 }
 

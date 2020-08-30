@@ -41,6 +41,9 @@
                                         <state key="normal" title="Calculate">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CtX-jC-19m"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lQd-oj-CI7">
                                         <rect key="frame" x="20" y="20" width="374" height="82"/>
@@ -99,6 +102,9 @@
                                                     </label>
                                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minimumValue="2" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ajk-3q-mQs">
                                                         <rect key="frame" x="192" y="0.0" width="182" height="32"/>
+                                                        <connections>
+                                                            <action selector="splitStepperValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="NI2-ul-QX0"/>
+                                                        </connections>
                                                     </stepper>
                                                 </subviews>
                                             </stackView>
@@ -132,6 +138,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="splitLabel" destination="d1k-9l-LQ7" id="2Un-Xd-DlF"/>
+                        <outlet property="tipTenButton" destination="Zj6-Ng-mQm" id="n4Z-6k-pea"/>
+                        <outlet property="tipTwentyButton" destination="9n5-32-3hc" id="4ck-VU-yB3"/>
+                        <outlet property="tipZeroButton" destination="Pnf-HE-wD8" id="7Ad-Su-dBQ"/>
+                        <outlet property="totalAmountTextField" destination="M2A-4M-UwF" id="Wc7-QK-W72"/>
                         <segue destination="zCA-MH-yZG" kind="show" identifier="DisplayResult" id="TL0-Ho-2mV"/>
                     </connections>
                 </viewController>
