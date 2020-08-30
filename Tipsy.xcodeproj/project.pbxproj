@@ -26,6 +26,9 @@
 		B4198A8624FB89ED00EA4665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4198A8824FB89ED00EA4665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4198A8F24FB90F100EA4665 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B43B1D4B24FB9D550024041A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B43B1D4D24FB9DC10024041A /* ResultScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ResultScreen.png; sourceTree = "<group>"; };
+		B43B1D4E24FB9DC20024041A /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		B4198A6E24FB89EB00EA4665 = {
 			isa = PBXGroup;
 			children = (
+				B43B1D4B24FB9D550024041A /* README.md */,
+				B43B1D4C24FB9DB60024041A /* Screenshots */,
 				B4198A7924FB89EB00EA4665 /* Tipsy */,
 				B4198A7824FB89EB00EA4665 /* Products */,
 			);
@@ -76,6 +81,15 @@
 				B4198A8F24FB90F100EA4665 /* ResultViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B43B1D4C24FB9DB60024041A /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				B43B1D4E24FB9DC20024041A /* HomeScreen.png */,
+				B43B1D4D24FB9DC10024041A /* ResultScreen.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
