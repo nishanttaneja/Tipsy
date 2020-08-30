@@ -13,6 +13,7 @@
 		B4198A8224FB89EB00EA4665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4198A8024FB89EB00EA4665 /* Main.storyboard */; };
 		B4198A8424FB89ED00EA4665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4198A8324FB89ED00EA4665 /* Assets.xcassets */; };
 		B4198A8724FB89ED00EA4665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4198A8524FB89ED00EA4665 /* LaunchScreen.storyboard */; };
+		B4198A9024FB90F100EA4665 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4198A8F24FB90F100EA4665 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B4198A8324FB89ED00EA4665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4198A8624FB89ED00EA4665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4198A8824FB89ED00EA4665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4198A8F24FB90F100EA4665 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				B4198A7A24FB89EB00EA4665 /* AppDelegate.swift */,
 				B4198A7C24FB89EB00EA4665 /* SceneDelegate.swift */,
-				B4198A7E24FB89EB00EA4665 /* ViewController.swift */,
+				B4198A8E24FB90E600EA4665 /* Controllers */,
 				B4198A8024FB89EB00EA4665 /* Main.storyboard */,
 				B4198A8324FB89ED00EA4665 /* Assets.xcassets */,
 				B4198A8524FB89ED00EA4665 /* LaunchScreen.storyboard */,
 				B4198A8824FB89ED00EA4665 /* Info.plist */,
 			);
 			path = Tipsy;
+			sourceTree = "<group>";
+		};
+		B4198A8E24FB90E600EA4665 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4198A7E24FB89EB00EA4665 /* ViewController.swift */,
+				B4198A8F24FB90F100EA4665 /* ResultViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				B4198A7F24FB89EB00EA4665 /* ViewController.swift in Sources */,
 				B4198A7B24FB89EB00EA4665 /* AppDelegate.swift in Sources */,
 				B4198A7D24FB89EB00EA4665 /* SceneDelegate.swift in Sources */,
+				B4198A9024FB90F100EA4665 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
