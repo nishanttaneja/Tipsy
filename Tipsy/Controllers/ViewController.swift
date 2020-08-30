@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipTenButton: UIButton!
     @IBOutlet weak var tipTwentyButton: UIButton!
     // IBActions
+    @IBAction func tipSelected(_ sender: UIButton) {}
     @IBAction func splitStepperValueChanged(_ sender: UIStepper) {}
     @IBAction func calculatePressed(_ sender: UIButton) {}
 }
