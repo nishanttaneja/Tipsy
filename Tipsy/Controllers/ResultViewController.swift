@@ -13,6 +13,20 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var amountLabel: UILabel!
     @IBOutlet weak var infoLabel: UILabel!
     
+    // Initialise
+    var amountPerPerson: Double?
+    var splitBetweenPeople: String?
+    var tip: Int?
+    
+    // Override View Method
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        if let amountPerPerson = amountPerPerson, let splitBetweenPeople = splitBetweenPeople, let tip = tip {
+            amountLabel.text = String(format: "%.1f", amountPerPerson)
+            infoLabel.text = "Split between \(splitBetweenPeople) people, with \(tip)% tip."
+        }
+    }
+    
     // IBAction
-    @IBAction func recalculatePressed(_ sender: UIButton) {}
+    @IBAction func recalculatePressed(_ sender: UIButton) {dismiss(animated: true, completion: nil)}
 }

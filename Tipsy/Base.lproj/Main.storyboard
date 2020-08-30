@@ -162,7 +162,7 @@
         <!--Result View Controller-->
         <scene sceneID="VA5-zw-XR1">
             <objects>
-                <viewController title="Result View Controller" id="zCA-MH-yZG" customClass="ResultViewController" sceneMemberID="viewController">
+                <viewController title="Result View Controller" id="zCA-MH-yZG" customClass="ResultViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EMc-tn-krM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
