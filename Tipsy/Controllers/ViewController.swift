@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         resetButtons()
         sender.modify(backgroundColor: #colorLiteral(red: 0, green: 0.9485482574, blue: 0.6213100553, alpha: 1), titleColor: .white)
     }
-    @IBAction func splitStepperValueChanged(_ sender: UIStepper) {}
+    @IBAction func splitStepperValueChanged(_ sender: UIStepper) {splitLabel.text = String(format: "%.0f", sender.value)}
     @IBAction func calculatePressed(_ sender: UIButton) {}
     
     // Customise UI
